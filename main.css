@@ -6,8 +6,9 @@ body {
 #form {
   background-color: rgb(255, 255, 255);
   padding: 20px;
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
+  margin-bottom: 15px;
   border-radius: 9px;
 }
 
@@ -27,28 +28,25 @@ button {
   display: block;
   width: 100%;
   box-sizing: border-box;
-  text-align: left;
   align-items: center;
   border-radius: 9px;
 }
 
 #bAdd {
-  border: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   background-color: blue;
+  text-align: center;
   color: aliceblue;
   border-radius: 9px;
   font-weight: bold;
 }
 
 #eventsContainer {
-  width: 500px;
-  margin: 50px;
+  width: 100vh;
   padding: 10px;
-  display: block;
   background-color: aliceblue;
   border-radius: 9px;
-  margin: 50px 405px;
-  gap: 5px;
+  margin: 55px 465px;
 }
 
 .event {
