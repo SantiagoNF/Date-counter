@@ -1,0 +1,84 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(234, 190, 63);
+}
+
+#form {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 9px;
+}
+
+button {
+  border: rgb(70, 248, 0);
+  border-radius: 9px;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  width: 100px;
+  height: 30px;
+  font-weight: 900;
+}
+
+#form input {
+  margin: 5px 0;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  align-items: center;
+  border-radius: 9px;
+}
+
+#bAdd {
+  border: rgb(0, 0, 0);
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+#eventsContainer {
+  width: 500px;
+  margin: 50px;
+  padding: 10px;
+  display: block;
+  background-color: aliceblue;
+  border-radius: 9px;
+  margin: 50px 405px;
+  gap: 5px;
+}
+
+.event {
+  border: solid 1px #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event .days {
+  text-align: center;
+  width: 100px;
+}
+.event .days .days-number {
+  font-size: 30px;
+  font-weight: bolder;
+  display: block;
+}
+
+.event .event-name {
+  padding: 10px;
+  width: 200px;
+}
+
+.event .event-date {
+  padding: 10px;
+  width: 200px;
+}
+
+.event .actions {
+  padding: 10px;
+}
